@@ -17,6 +17,7 @@ Route::get('/', 'PagesController@index');
 Route::get('/squat', 'PagesController@squat');
 Route::get('/squat/freesubmit', 'PagesController@squatfreesubmit');
 Route::get('/squat/paidsubmit', 'PagesController@squatpaidsubmit');
+Route::get('/squat/prosubmit', 'PagesController@squatprosubmit');
 
 Route::get('/bench', 'PagesController@bench');
 Route::get('/deadlift', 'PagesController@deadlift');

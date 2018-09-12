@@ -24,6 +24,10 @@ class PagesController extends Controller
   {
     return view('squat/squatpaidsubmit');
   }
+  public function squatprosubmit()
+  {
+    return view('squat/squatprosubmit');
+  }
 
 
 
