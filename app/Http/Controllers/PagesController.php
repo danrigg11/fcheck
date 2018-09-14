@@ -10,34 +10,52 @@ class PagesController extends Controller
   {
     return view('index');
   }
+  public function trainer()
+  {
+    return view('users/trainerspage');
+  }
+  public function user()
+  {
+    return view('users/index');
+  }
 
 
   public function squat()
   {
-    return view('squat/squat');
+    return view('users/squat/squat');
   }
   public function squatfreesubmit()
   {
-    return view('squat/squatfreesubmit');
+    return view('users/squat/squatfreesubmit');
   }
   public function squatpaidsubmit()
   {
-    return view('squat/squatpaidsubmit');
+    return view('users/squat/squatpaidsubmit');
   }
   public function squatprosubmit()
   {
-    return view('squat/squatprosubmit');
+    return view('users/squat/squatprosubmit');
   }
 
 
 
   public function bench()
   {
-    return view('bench/bench');
+    return view('users/bench/bench');
   }
   public function deadlift()
   {
-    return view('deadlift/deadlift');
+    return view('users/deadlift/deadlift');
+  }
+
+// Trainers Section //
+  public function trainerindex()
+  {
+    return view('trainers/index');
+  }
+  public function trainerjobs()
+  {
+    return view('trainers/jobs');
   }
 
 }

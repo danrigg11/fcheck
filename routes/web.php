@@ -11,8 +11,10 @@
 |
 */
 
-
+/* User Section */
 Route::get('/', 'PagesController@index');
+Route::get('/user', 'PagesController@user');
+Route::get('/trainer', 'PagesController@trainer');
 
 Route::get('/squat', 'PagesController@squat');
 Route::get('/squat/freesubmit', 'PagesController@squatfreesubmit');
@@ -21,3 +23,7 @@ Route::get('/squat/prosubmit', 'PagesController@squatprosubmit');
 
 Route::get('/bench', 'PagesController@bench');
 Route::get('/deadlift', 'PagesController@deadlift');
+
+/* Trainer Section */
+Route::get('/trainerindex', 'PagesController@trainerindex');
+Route::get('/trainerjobs', 'PagesController@trainerjobs');
