@@ -35,7 +35,8 @@
               </div>
               <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
             </div>
-            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            <button type="submit" class="btn btn-primary mb-2">Login</button>
+            <a href="userindex" class="btn btn-primary mb-2">Test Login</a>
           </div>
         </div>
       </div>
@@ -58,7 +59,8 @@
               </div>
               <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
             </div>
-            <button type="submit" class="btn btn-danger mb-2">Submit</button>
+            <button type="submit" class="btn btn-danger mb-2">Login</button>
+            <a href="trainerindex" class="btn btn-danger  mb-2">Test Login</a>
           </div>
         </div>
       </div>

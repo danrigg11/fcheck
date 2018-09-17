@@ -1,6 +1,13 @@
 @extends('masterlayout')
 
 @section('section')
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb bg-white mb-0">
+      <li class="breadcrumb-item"><a href="/userindex">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Trainer</li>
+    </ol>
+  </nav>
+
   <div class="container">
       <div class="row mt-3">
         <div class="col-5 d-flex align-items-center">
@@ -29,7 +36,7 @@
           </div>
         </div>
 
-        <div class="col shadow-sm pl-0 pr-0">
+        <div class="col pl-0 pr-0">
           <div class="bg-light clearfix">
             <p class="float-left pl-3 pt-2">Username: </p>
             <p class="text-primary float-right pr-3 pt-2">DanRigg11</p>
@@ -74,7 +81,19 @@
             <p class="float-left pl-3">IPF Qualifying Total: </p>
             <p class="float-right pr-3 text-danger">450kg</p>
           </div>
+        </div>
+      </div>
 
+<div class="row mt-2">
+  <div class="col-12 pr-0">
+    <button class="btn btn-dark float-right">Add trainer to submit list</button>
+  </div>
+</div>
+
+
+      <div class="row bg-light mt-4">
+        <div class="col-12">
+          <p class="pt-2">hello world</p>
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@
     <h1 class="mb-0 mt-0">Form Check</h1>
   </div>
 
-    <header class="mb-3 pb-3">
+    <header class="">
         <div class="collapse bg-light mt-0" id="navbarHeader">
           <div class="container">
             <div class="row">
@@ -35,7 +35,7 @@
             </div>
           </div>
         </div>
-        <div class="navbar navbar-light bg-light shadow-sm pb-3">
+        <div class="navbar navbar-light bg-light shadow-sm">
           <div class="container d-flex justify-content-between">
             <a href="index.html" class="navbar-brand d-flex align-items-center">
               <strong>Profile</strong>

@@ -4,7 +4,7 @@
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb bg-white mb-0">
       <li class="breadcrumb-item"><a href="/userindex">Home</a></li>
-      <li class="breadcrumb-item"><a href="/squat">Squat</a></li>
+      <li class="breadcrumb-item"><a href="/Deadlift">Deadlift</a></li>
       <li class="breadcrumb-item active" aria-current="page">Pro Submit</li>
     </ol>
   </nav>

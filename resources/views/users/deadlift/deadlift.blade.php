@@ -1,19 +1,28 @@
 @extends('masterlayout')
 
 @section('section')
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb bg-white mb-0">
+      <li class="breadcrumb-item"><a href="/userindex">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Deadlift</li>
+    </ol>
+  </nav>
+
   <div class="container">
     <div class="row">
       <div class="col-12 pt-3 pb-3 ">
-        <button type="button" class="btn btn-dark btn-lg btn-block shadow" name="button">Free Submit</button>
-      </div>
-      <div class="col-12 pt-3 pb-3 ">
-        <button class="btn btn-dark btn-lg btn-block shadow" type="button" class="btn btn-dark btn-lg btn-block shadow-lg" name="button">Paid Submit</button>
-      </div>
-      <div class="col-12 pt-3 pb-3 ">
-        <button class="btn btn-dark btn-lg btn-block shadow" type="button" class="btn btn-dark btn-lg btn-block shadow-lg" name="button">Pro Submit</button>
+        <div class="col-12 pt-3 pb-3 ">
+          <a href="/deadlift/freesubmit" class="btn btn-dark btn-lg btn-block shadow">Free Submit</a>
+        </div>
+        <div class="col-12 pt-3 pb-3 ">
+          <a href="/deadlift/paidsubmit" class="btn btn-dark btn-lg btn-block shadow">Paid Submit</a>
+        </div>
+        <div class="col-12 pt-3 pb-3 ">
+          <a href="/deadlift/prosubmit" class="btn btn-dark btn-lg btn-block shadow">Pro Submit</a>
       </div>
     </div>
-    </div>
+  </div>
+</div>
 <hr>
 <div class="container">
   <div>

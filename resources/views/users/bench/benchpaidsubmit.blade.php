@@ -4,8 +4,8 @@
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb bg-white mb-0">
       <li class="breadcrumb-item"><a href="/userindex">Home</a></li>
-      <li class="breadcrumb-item"><a href="/squat">Squat</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Pro Submit</li>
+      <li class="breadcrumb-item"><a href="/bench">Bench</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Paid Submit</li>
     </ol>
   </nav>
 
@@ -13,7 +13,7 @@
     <div class="row justify-content-md-center">
       <div class="col-md-10 order-md-1">
 
-        <h4 class="mb-3">Pro Submit</h4>
+        <h4 class="mb-3">Paid Submit</h4>
         <hr>
 
         <form class="was-validated">
@@ -101,7 +101,23 @@
               </div>
               <input type="number" min="0.00" step="0.50" value="1.00" id="exampleInputAmount" class="form-control" placeholder="Price" required>
             </div>
-            <small class="text-muted">This amount is per video minute.</small>
+            <label class="mb-0 pb-1 mt-2" for="exampleFormControlSelect1">Within time</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>10 minutes</option>
+              <option>15 minutes</option>
+              <option>20 minutes</option>
+              <option>1 hour</option>
+              <option>today</option>
+            </select>
+            <small id="passwordHelpInline" class="text-muted">The trainer will get a thurther 5-10 minutes once accepted case depending on viedo length.</small>
+          </div>
+
+          <hr>
+
+          <div class="form-group">
+            <label for="exampleFormControlFile1">Example file input</label>
+            <input type="file" class="form-control pb-1 pt-1" id="exampleFormControlFile1" required>
+            <div class="invalid-feedback">Must have file attached.</div>
           </div>
 
           <hr>
