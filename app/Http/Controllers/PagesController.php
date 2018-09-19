@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
+  // User Section //
   public function index()
   {return view('index');}
 
@@ -56,12 +57,9 @@ class PagesController extends Controller
 
 // Trainers Section //
   public function trainerindex()
-  {
-    return view('trainers/index');
-  }
+  {return view('trainers/index');}
+
   public function trainerjobs()
-  {
-    return view('trainers/jobs');
-  }
+  {return view('trainers/jobs');}
 
 }
