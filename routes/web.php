@@ -33,4 +33,3 @@ Route::get('/deadlift/prosubmit', 'PagesController@deadliftprosubmit');
 
 /* Trainer Section */
 Route::get('/trainerindex', 'PagesController@trainerindex');
-Route::get('/trainerjobs', 'PagesController@trainerjobs');

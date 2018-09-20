@@ -17,7 +17,7 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-6 mt-3">
+      <div class="col-xs-12 col-sm-6 mt-3">
         <div class="card">
           <div class="card-header">
             <h3 class="text-center">User log-in</h3>
@@ -41,7 +41,7 @@
         </div>
       </div>
 
-      <div class="col-6 mt-3">
+      <div class="col-xs-12 col-sm-6 mt-3">
         <div class="card">
           <div class="card-header">
             <h3 class="text-center">Trainer log-in</h3>
@@ -73,7 +73,7 @@
 
           <div class="card-body">
             <div class="col-12">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <nav class="navbar navbar-expand-xs navbar-light bg-light">
                 <p class="navbar-brand"></p>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -82,10 +82,13 @@
                   <form class="was-validated">
                     <div class="form-group form-inline">
                       <div class="">
-                        <input type="text" class="form-control mr-3" placeholder="First name" required>
+                        <input type="text" class="form-control mr-3 mt-1" placeholder="First name" required>
                       </div>
                       <div class="">
-                        <input type="text" class="form-control" placeholder="Last name" required>
+                        <input type="text" class="form-control mr-3 mt-1" placeholder="Last name" required>
+                      </div>
+                      <div class="">
+                        <input class="form-control mt-1" type="date" id="myDate" required>
                       </div>
                     </div>
                     <div class="form-group">
@@ -116,23 +119,23 @@
                     <div class="form-group">
                       <h4>Squat</h4>
                       <div class="row">
-                        <div class="col-6 pr-0">
-                          <div class="input-group mb-2">
-                            <div class="input-group-prepend">
-                              <div class="input-group-text">Kg</div>
-                            </div>
-                            <input id="ticketNum" type="number" name="ticketNum" value="0">
-                          </div>
+                        <div class="col-xs-12 col-sm-6 pr-0">
                           <label for="ticketNum">Number of Kilos:</label>
-                        </div>
-                        <div class="col-6 pl-0">
                           <div class="input-group mb-2">
                             <div class="input-group-prepend">
-                              <div class="input-group-text">:</div>
+                              <div class="input-group-text pl-1 pr-1">Kg</div>
                             </div>
                             <input id="ticketNum" type="number" name="ticketNum" value="0">
                           </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
                           <label for="ticketNum">Number of Pounds:</label>
+                          <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text pl-1 pr-1">:</div>
+                            </div>
+                            <input id="ticketNum" type="number" name="ticketNum" value="0">
+                          </div>
                         </div>
                       </div>
                       <hr class="mt-0">
@@ -141,23 +144,23 @@
                     <div class="form-group">
                       <h4>Bench</h4>
                       <div class="row">
-                        <div class="col-6 pr-0">
-                          <div class="input-group mb-2">
-                            <div class="input-group-prepend">
-                              <div class="input-group-text">Kg</div>
-                            </div>
-                            <input id="ticketNum" type="number" name="ticketNum" value="0">
-                          </div>
+                        <div class="col-xs-12 col-sm-6 pr-0">
                           <label for="ticketNum">Number of Kilos:</label>
-                        </div>
-                        <div class="col-6 pl-0">
                           <div class="input-group mb-2">
                             <div class="input-group-prepend">
-                              <div class="input-group-text">:</div>
+                              <div class="input-group-text pl-1 pr-1">Kg</div>
                             </div>
                             <input id="ticketNum" type="number" name="ticketNum" value="0">
                           </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
                           <label for="ticketNum">Number of Pounds:</label>
+                          <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text pl-1 pr-1">:</div>
+                            </div>
+                            <input id="ticketNum" type="number" name="ticketNum" value="0">
+                          </div>
                         </div>
                       </div>
                       <hr class="mt-0">
@@ -166,23 +169,23 @@
                     <div class="form-group">
                       <h4>Deadlift</h4>
                       <div class="row">
-                        <div class="col-6 pr-0">
-                          <div class="input-group mb-2">
-                            <div class="input-group-prepend">
-                              <div class="input-group-text">Kg</div>
-                            </div>
-                            <input id="ticketNum" type="number" name="ticketNum" value="0">
-                          </div>
+                        <div class="col-xs-12 col-sm-6 pr-0">
                           <label for="ticketNum">Number of Kilos:</label>
-                        </div>
-                        <div class="col-6 pl-0">
                           <div class="input-group mb-2">
                             <div class="input-group-prepend">
-                              <div class="input-group-text">:</div>
+                              <div class="input-group-text pl-1 pr-1">Kg</div>
                             </div>
                             <input id="ticketNum" type="number" name="ticketNum" value="0">
                           </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
                           <label for="ticketNum">Number of Pounds:</label>
+                          <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text pl-1 pr-1">:</div>
+                            </div>
+                            <input id="ticketNum" type="number" name="ticketNum" value="0">
+                          </div>
                         </div>
                       </div>
                       <hr class="mt-0">
@@ -274,7 +277,7 @@
 
           <div class="card-body">
             <div class="col-12">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <nav class="navbar navbar-expand-xs navbar-light bg-light">
                 <p class="navbar-brand"></p>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -283,10 +286,10 @@
                   <form class="was-validated">
                     <div class="form-group form-inline">
                       <div class="">
-                        <input type="text" class="form-control mr-3" placeholder="First name" required>
+                        <input type="text" class="form-control mr-3 mt-1" placeholder="First name" required>
                       </div>
                       <div class="">
-                        <input type="text" class="form-control" placeholder="Last name" required>
+                        <input type="text" class="form-control mt-1" placeholder="Last name" required>
                       </div>
                     </div>
                     <div class="form-group">

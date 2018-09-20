@@ -3,7 +3,7 @@
 @section('section')
   <div class="container">
       <div class="row mt-3">
-        <div class="col-5 d-flex align-items-center">
+        <div class="col-xs-12 col-sm-5 d-flex align-items-center">
           <div class="row text-center w-100">
             <div class="col-12">
               <img src="https://thumbs.dreamstime.com/z/default-avatar-profile-icon-grey-photo-placeholder-illustrations-vectors-default-avatar-profile-icon-grey-photo-placeholder-99724602.jpg" style="width:80%; height:100%" alt="Avatar">
@@ -114,7 +114,7 @@
           <p class="pt-2">Bench</p>
         </div>
         <div class="col-3 bg-light">
-          <p class="pt-2">Pending</p>
+          <p class="pt-2 text-success">Pending...</p>
         </div>
         <div class="col-3 bg-light">
           <a href="/trainer" class="float-right pt-2">Erik1995</a>
@@ -128,7 +128,7 @@
           <p class="pt-2">Squat</p>
         </div>
         <div class="col-3 bg-light">
-          <p class="pt-2">Complete</p>
+          <p class="pt-2 text-primary">Complete</p>
         </div>
         <div class="col-3 bg-light">
           <a href="/trainer" class="float-right pt-2">Erik1995</a>
@@ -142,7 +142,7 @@
           <p class="pt-2">Bench</p>
         </div>
         <div class="col-3 bg-light">
-          <p class="pt-2">Complete</p>
+          <p class="pt-2 text-primary">Complete</p>
         </div>
         <div class="col-3 bg-light">
           <a href="/trainer" class="float-right pt-2">JamesBench</a>
@@ -156,7 +156,7 @@
           <p class="pt-2">Deadlift</p>
         </div>
         <div class="col-3 bg-light">
-          <p class="pt-2">Expired</p>
+          <p class="pt-2 text-danger"><s>Expired</s></p>
         </div>
         <div class="col-3 bg-light">
           <a href="/trainer" class="float-right pt-2">Erik1995</a>

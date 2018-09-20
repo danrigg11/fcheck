@@ -59,7 +59,4 @@ class PagesController extends Controller
   public function trainerindex()
   {return view('trainers/index');}
 
-  public function trainerjobs()
-  {return view('trainers/jobs');}
-
 }
