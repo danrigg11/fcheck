@@ -55,6 +55,18 @@ class PagesController extends Controller
   public function deadliftprosubmit()
   {return view('users/deadlift/deadliftprosubmit');}
 
+  public function other()
+  {return view('users/other/other');}
+
+  public function otherfree()
+  {return view('users/other/otherfreesubmit');}
+
+  public function otherpaidsubmit()
+  {return view('users/other/otherpaidsubmit');}
+
+  public function otherprosubmit()
+  {return view('users/other/otherprosubmit');}
+
 // Trainers Section //
   public function trainerindex()
   {return view('trainers/index');}

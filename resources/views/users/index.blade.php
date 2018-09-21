@@ -71,13 +71,16 @@
     <div class="container mb-5 pb-5">
       <div class="row">
         <div class="col-12 pt-3 pb-3 ">
-          <a href="squat" class="btn btn-dark btn-lg btn-block active shadow-lg" role="button" aria-pressed="true">Squat</a>
+          <a href="squat" class="btn btn-dark btn-lg btn-block active" role="button" aria-pressed="true"><img src="{{ asset('images/Icons/icons8-squats-50-white.png') }}" alt="">Squat</a>
         </div>
         <div class="col-12 pt-3 pb-3 ">
-          <a href="bench" class="btn btn-dark btn-lg btn-block active shadow-lg" role="button" aria-pressed="true">Bench</a>
+          <a href="bench" class="btn btn-dark btn-lg btn-block active" role="button" aria-pressed="true"><img src="{{ asset('images/Icons/icons8-bench-press-50-white.png') }}" alt="">Bench</a>
         </div>
         <div class="col-12 pt-3 pb-3 ">
-          <a href="deadlift" class="btn btn-dark btn-lg btn-block active shadow-lg" role="button" aria-pressed="true">Deadlift</a>
+          <a href="deadlift" class="btn btn-dark btn-lg btn-block active" role="button" aria-pressed="true"><img src="{{ asset('images/Icons/icons8-deadlift-50-white.png') }}" alt="">Deadlift</a>
+        </div>
+        <div class="col-12 pt-3 pb-3 ">
+          <a href="other" class="btn btn-dark btn-lg btn-block active" role="button" aria-pressed="true"><img src="{{ asset('images/Icons/icons8-pushups-50-white.png') }}" alt="">Other</a>
         </div>
         <br>
         <br>

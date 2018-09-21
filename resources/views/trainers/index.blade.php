@@ -9,7 +9,7 @@
             <img src="https://thumbs.dreamstime.com/z/default-avatar-profile-icon-grey-photo-placeholder-illustrations-vectors-default-avatar-profile-icon-grey-photo-placeholder-99724602.jpg" style="width:80%; height:100%" alt="Avatar">
           </div>
           <div class="col-12">
-            <h5 class="text-center text-danger">589</h5>
+            <h3 class="text-center text-danger mb-0">589<img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-gold-medal-50.png') }}" alt=""></h3>
           </div>
           <div class="d-flex justify-content-center w-100">
             <div class="p-1">

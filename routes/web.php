@@ -31,5 +31,10 @@ Route::get('/deadlift/freesubmit', 'PagesController@deadliftfree');
 Route::get('/deadlift/paidsubmit', 'PagesController@deadliftpaidsubmit');
 Route::get('/deadlift/prosubmit', 'PagesController@deadliftprosubmit');
 
+Route::get('/other', 'PagesController@other');
+Route::get('/other/freesubmit', 'PagesController@otherfree');
+Route::get('/other/paidsubmit', 'PagesController@otherpaidsubmit');
+Route::get('/other/prosubmit', 'PagesController@otherprosubmit');
+
 /* Trainer Section */
 Route::get('/trainerindex', 'PagesController@trainerindex');

@@ -7,32 +7,33 @@
       <li class="breadcrumb-item active" aria-current="page">Squat</li>
     </ol>
   </nav>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-12 pt-3 pb-3 ">
-        <a href="/squat/freesubmit" class="btn btn-dark btn-lg btn-block shadow">Free Submit</a>
-      </div>
-      <div class="col-12 pt-3 pb-3 ">
-        <a href="/squat/paidsubmit" class="btn btn-dark btn-lg btn-block shadow">Paid Submit</a>
-      </div>
-      <div class="col-12 pt-3 pb-3 ">
-        <a href="/squat/prosubmit" class="btn btn-dark btn-lg btn-block shadow">Pro Submit</a>
-      </div>
-    </div>
-    </div>
-<hr>
 <div class="container">
   <div>
-  <h5 class="text-center">Submit Types</h5>
-  <h5>Free Submit</h5>
-  <p>This may take up to 24 hours.</p>
+  <h3 class="text-center">Submit Types</h3>
+  <hr>
+  <h5>Free Submit<img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-captain-america-48.png') }}" alt=""></h5>
+  <p><img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-price-tag-pound-50.png') }}" alt=""> Free submit.</p>
+  <p><img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-align-text-left-50.png') }}" alt=""> Text feedback.</p>
+  <p><img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-tv-show-50.png') }}" alt=""> Possible Video.</p>
+  <p><img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-watch-50.png') }}" alt=""> Up to 24 hours response time.</p>
+  <div class="col-12 pt-3 pb-3 ">
+    <a href="/squat/freesubmit" class="btn btn-dark btn-lg btn-block shadow">Free Submit</a>
+  </div>
   <br>
-  <h5>Paid Submit</h5>
-  <p>Response time varied on price.</p>
+  <h5>Paid Submit<img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-iron-man-64.png') }}" alt=""></h5>
+  <p><img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-align-text-left-50.png') }}" alt=""> Text feedback.</p>
+  <p><img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-tv-show-50.png') }}" alt=""> Video feedback.</p>
+  <p><img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-watch-50.png') }}" alt=""> Response time based on cost.</p>
+  <div class="col-12 pt-3 pb-3 ">
+    <a href="/squat/paidsubmit" class="btn btn-dark btn-lg btn-block shadow">Paid Submit</a>
+  </div>
   <br>
-  <h5>Pro Submit</h5>
-  <p>Video Calling.</p>
+  <h5>Pro Submit<img style="height:45px; width:45px" src="{{ asset('images/Icons/icons8-hulk-48.png') }}" alt=""></h5>
+  <p><img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-documentary-50.png') }}" alt=""> Video calling.</p>
+  <p><img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-price-tag-pound-50.png') }}" alt=""> Price per minute optional.</p>
+  <div class="col-12 pt-3 pb-3 ">
+    <a href="/squat/prosubmit" class="btn btn-dark btn-lg btn-block shadow">Pro Submit</a>
+  </div>
   </div>
 </div>
 
