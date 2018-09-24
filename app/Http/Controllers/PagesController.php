@@ -16,6 +16,9 @@ class PagesController extends Controller
   public function userindex()
   {return view('users/index');}
 
+  public function usersettings()
+  {return view('users/usersettings');}
+
 
   public function squat()
   {return view('users/squat/squat');}

@@ -126,9 +126,8 @@
           </div>
 
           <div class="form-group">
-            <label for="exampleFormControlFile1">File input</label>
-            <input type="file" class="form-control pb-1 pt-1" id="exampleFormControlFile1" required>
-            <div class="invalid-feedback">Must have file attached.</div>
+            <label for="exampleFormControlFile1">File input (optional but prefered)</label>
+            <input type="file" class="form-control pb-1 pt-1" id="exampleFormControlFile1">
           </div>
 
           <hr>

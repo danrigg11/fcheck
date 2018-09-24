@@ -14,55 +14,60 @@
           </div>
 
         </div>
-        <div class="col shadow-sm pl-0 pr-0">
-          <div class="bg-light clearfix">
+        <div class="col shadow-sm pl-0 pr-0 bg-light ">
+          <div class="clearfix">
             <p class="float-left pl-3 pt-2">Username: </p>
             <p class="text-primary float-right pr-3 pt-2">DanRigg11</p>
           </div>
 
-          <div class="bg-light clearfix">
+          <div class="clearfix">
             <p class="float-left pl-3">Name: </p>
             <p class="float-right pr-3">Daniel Rigg</p>
           </div>
 
-          <div class="bg-light clearfix">
+          <div class="clearfix">
             <p class="float-left pl-3">Age: </p>
             <p class="float-right pr-3">26</p>
           </div>
 
-          <div class="bg-light clearfix">
+          <div class="clearfix">
             <p class="float-left pl-3">Weight: </p>
             <p class="float-right pr-3">64kg</p>
           </div>
 
-          <div class="bg-light clearfix">
+          <div class="clearfix">
             <p class="float-left pl-3">Squat PB: </p>
             <p class="float-right pr-3">135kg</p>
           </div>
 
-          <div class="bg-light clearfix">
+          <div class="clearfix">
             <p class="float-left pl-3">Bench PB: </p>
             <p class="float-right pr-3">87.5kg</p>
           </div>
 
-          <div class="bg-light clearfix">
+          <div class="clearfix">
             <p class="float-left pl-3">Deadlift PB: </p>
             <p class="float-right pr-3">160kg</p>
           </div>
 
-          <div class="bg-light clearfix">
+          <div class="clearfix">
             <p class="float-left pl-3">Total: </p>
             <p class="float-right pr-3 text-danger">382.5kg</p>
           </div>
 
-          <div class="bg-light clearfix">
+          <div class="clearfix">
             <p class="float-left pl-3">IPF Qualifying Total: </p>
             <p class="float-right pr-3 text-danger">450kg</p>
+          </div>
+
+          <div class="clearfix">
+            <a class="float-left pl-3 text-danger pb-2" href="https://www.sbdapparel.com/">Shop SBD apparel: <img style="height:30px" src="https://www.sbdapparel.com/wp-content/themes/Kappe/images/logo_2.png" alt=""></a>
           </div>
 
         </div>
       </div>
     </div>
+
     <div class="text-center mt-2 mb-2 pt-2">
       <h1>Submit</h1>
       <hr>

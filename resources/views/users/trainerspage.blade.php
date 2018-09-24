@@ -10,13 +10,13 @@
 
   <div class="container">
       <div class="row mt-3">
-        <div class="col-5 d-flex align-items-center">
+        <div class="col-xs-12 col-sm-5 d-flex align-items-center">
           <div class="row text-center w-100">
             <div class="col-12 mb-0 pb-0">
               <img src="https://thumbs.dreamstime.com/z/default-avatar-profile-icon-grey-photo-placeholder-illustrations-vectors-default-avatar-profile-icon-grey-photo-placeholder-99724602.jpg" style="width:80%; height:100%" alt="Avatar">
             </div>
             <div class="col-12">
-              <h5 class="text-center text-danger">589</h5>
+              <h5 class="text-center text-danger">589<img style="height:40px; width:40px" src="{{ asset('images/Icons/icons8-gold-medal-50.png') }}" alt=""></h5>
             </div>
             <div class="d-flex justify-content-center w-100">
               <div class="p-1">
@@ -81,14 +81,17 @@
             <p class="float-left pl-3">IPF Qualifying Total: </p>
             <p class="float-right pr-3 text-danger">450kg</p>
           </div>
-        </div>
-      </div>
 
-<div class="row mt-2">
-  <div class="col-12 pr-0">
-    <button class="btn btn-dark float-right">Add trainer to submit list</button>
-  </div>
-</div>
+        <div class="clearfix mt-1">
+          <button class="btn btn-dark float-right mr-1">Add trainer to submit list</button>
+        </div>
+        <div class="clearfix mt-1">
+          <button class="btn btn-success float-right mr-1">Send message</button>
+        </div>
+
+        </div>
+
+      </div>
 
 
       <div class="row bg-light mt-4">

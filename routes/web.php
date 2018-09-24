@@ -14,6 +14,7 @@
 /* User Section */
 Route::get('/', 'PagesController@index');
 Route::get('/userindex', 'PagesController@userindex');
+Route::get('/accountsettings', 'PagesController@usersettings');
 Route::get('/trainer', 'PagesController@trainer');
 
 Route::get('/squat', 'PagesController@squat');

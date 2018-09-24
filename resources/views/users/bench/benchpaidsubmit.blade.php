@@ -45,7 +45,7 @@
           </div>
 
 
-          <nav class="navbar navbar-expand-lg navbar-light bg-white" style="border-radius: 05px;border: 1px solid #D2CFCF">
+          <nav class="navbar navbar-expand-xs navbar-light bg-white" style="border-radius: 05px;border: 1px solid #D2CFCF">
             <a class="navbar-brand">Other</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -81,12 +81,11 @@
                 </li>
               </ul>
 
-              <form class="form-inline my-2 my-lg-0">
                 <label>Search for a trainer</label>
                 <div class="input-group">
                   <input class="form-control mr-sm-2" type="search" placeholder="Search">
                   <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
               </div>
             </div>
           </nav>
@@ -114,14 +113,20 @@
 
           <hr>
           <div class="form-group">
+            <label for="formGroupExampleInput">Type of bench</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" required>
+            <div class="invalid-feedback">Must have exercise name.</div>
+          </div>
+
+          <div class="form-group">
             <label for="validationTooltip01">Weight ammount</label>
             <input type="text" class="form-control" id="validationWeight" placeholder="kg" value="" required>
             <div class="invalid-feedback">Must have weight ammount.</div>
           </div>
 
           <div class="form-group">
-            <label for="exampleFormControlFile1">Example file input</label>
-            <input type="file" class="form-control pb-1 pt-1" id="exampleFormControlFile1" required>
+            <label for="exampleFormControlFile1">Example file input (optional but prefered)</label>
+            <input type="file" class="form-control pb-1 pt-1" id="exampleFormControlFile1">
             <div class="invalid-feedback">Must have file attached.</div>
           </div>
 

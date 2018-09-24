@@ -16,35 +16,32 @@
   </div>
 
     <header class="">
-        <div class="collapse bg-light mt-0" id="navbarHeader">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-8 col-md-7 py-4">
-                <h4 class="text-dark">About</h4>
-                <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-              </div>
-              <div class="col-sm-4 offset-md-1 py-4">
-                <h4 class="text-dark">Contact</h4>
-                <ul class="list-unstyled">
-                  <li><a href="#" class="text-dark">Edit My Profile</a></li>
-                  <li><a href="#" class="text-dark">My Account</a></li>
-                  <li><a href="#" class="text-dark">Help</a></li>
-                  <li><a href="#" class="text-dark">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="navbar navbar-light bg-light shadow-sm">
-          <div class="container d-flex justify-content-between">
-            <a href="index.html" class="navbar-brand d-flex align-items-center">
-              <strong></strong>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-        </div>
+      <nav class="navbar navbar-expand-xs navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <div class="flex-row ml-md-auto">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="#">My Account</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Messages <span class="text-primary">3</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Help</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Log-out</a>
+      </li>
+    </ul>
+  </div>
+</nav>
       </header>
     @yield('section')
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -111,11 +108,27 @@ for (var i = 0; i < btns.length; i++) {
 }
 </style>
 </body>
-  <footer>
+  <footer class="bg-light">
   <div class="jumbotron jumbotron-fluid mb-0 bg-success">
     <div class="container">
       <h1 class="display-4 text-center text-white">Advert Space</h1>
     </div>
   </div>
+  <div class="container">
+    <div class="row mt-3 mb-2">
+      <div class="col-12">
+        <ul>
+          <p>Helpful links</p>
+          <li><a href="https://www.powerlifting-ipf.com/anti-doping/rules-documents.html">IPF rulebook</a></li>
+          <li><a href="https://www.sbdapparel.com/">SBD apparel</a></li>
+        </ul>
+        <hr>
+      </div>
+      <div class="col-12">
+        <a class="text-dark" href="https://icons8.com/">icons8 link</a>
+      </div>
+    </div>
+  </div>
+
 </footer>
 </html>
