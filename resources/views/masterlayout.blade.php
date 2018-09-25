@@ -28,16 +28,16 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item">
-        <a class="nav-link" href="#">My Account</a>
+        <a class="nav-link" href="/accountsettings">My Account</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Messages <span class="text-primary">3</span></a>
+        <a class="nav-link" href="/messages">Messages <span class="text-primary">3</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Help</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Log-out</a>
+        <a class="nav-link" href="/">Log-out</a>
       </li>
     </ul>
   </div>

@@ -29,7 +29,7 @@
         </div>
       </div>
 
-      <div class="col shadow-sm pl-0 pr-0">
+      <div class="col shadow-sm pl-0 pr-0 mb-2 bg-light">
         <div class="col-12 bg-light clearfix">
           <p class="float-left pl-3 pt-2">Username: </p>
           <p class="text-primary float-right pr-3 pt-2">DanRigg11</p>
@@ -108,7 +108,7 @@
               <div class="card-header bg-warning">
                 <h4 href="#" class="">Bench</h4>
               </div>
-              <div class="card-body">
+              <div class="card-body pb-sm-1">
                 <p class="">Time Left<span class="pl-4 text-danger">0:11:05</span></p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-white" data-toggle="modal" data-target="#exampleModalCenter0">
@@ -181,15 +181,17 @@
                   <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">James - Bench</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                       <div class="modal-body text-left">
-
-
-
+                        <div class="list-group-item rounded bg-light">
+                          <iframe src="https://www.youtube.com/embed/7x0WQg81Ul0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                          <p class="list-group-item">Hi here is my bench im worried that my shoulder possition is not correct?</p>
+                        </div>
+                        <h2 class="mt-2">Respond</h2>
                         <p for="exampleFormControlTextarea1">Textarea</p>
                         <div class="input-group mb-3">
                           <div class="w-100">
@@ -224,7 +226,7 @@
               <div class="card-header">
                 <h4 href="#" class="">Bench</h4>
               </div>
-              <div class="card-body">
+              <div class="card-body pb-sm-1">
                 <p class="">11/09/2018<span class="pl-4">11:05</span></p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-white" data-toggle="modal" data-target="#exampleModalCenter0">
@@ -289,7 +291,7 @@
                 <hr class="mt-1">
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter1">
+                <button type="button" class="btn btn-secondary mt-sm-1" data-toggle="modal" data-target="#exampleModalCenter1">
                   <spam class="">Other Info</spam>
                 </button>
 
@@ -316,7 +318,7 @@
                   </div>
                 </div>
 
-                <a href="#" class="btn btn-dark" role="button" aria-pressed="true">Take job</a>
+                <a href="#" class="btn btn-dark mt-sm-1" role="button" aria-pressed="true">Take job</a>
               </div>
             </div>
           </div>
@@ -328,7 +330,7 @@
               <div class="card-header">
                 <h4 href="#" class="">Squat</h4>
               </div>
-              <div class="card-body">
+              <div class="card-body pb-sm-1">
                 <p class="">10/09/2018<span class="pl-4">14:05</span></p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-white" data-toggle="modal" data-target="#exampleModalCenter3">
@@ -393,7 +395,7 @@
                 <hr class="mt-1">
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter4">
+                <button type="button" class="btn btn-secondary mt-sm-1" data-toggle="modal" data-target="#exampleModalCenter4">
                   <spam class="">Other Info</spam>
                 </button>
 
@@ -420,7 +422,7 @@
                   </div>
                 </div>
 
-                <a href="#" class="btn btn-dark" role="button" aria-pressed="true">Take job</a>
+                <a href="#" class="btn btn-dark mt-sm-1" role="button" aria-pressed="true">Take job</a>
               </div>
             </div>
           </div>
@@ -432,7 +434,7 @@
               <div class="card-header">
                 <h4 href="#" class="">Deadlift</h4>
               </div>
-              <div class="card-body">
+              <div class="card-body pb-sm-1">
                 <p class="">08/09/2018<span class="pl-4">09:05</span></p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-white" data-toggle="modal" data-target="#exampleModalCenter5">
@@ -497,7 +499,7 @@
                 <hr class="mt-1">
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter6">
+                <button type="button" class="btn btn-secondary mt-sm-1" data-toggle="modal" data-target="#exampleModalCenter6">
                   <spam class="">Other Info</spam>
                 </button>
 
@@ -524,7 +526,7 @@
                   </div>
                 </div>
 
-                <a href="#" class="btn btn-dark" role="button" aria-pressed="true">Take job</a>
+                <a href="#" class="btn btn-dark mt-sm-1" role="button" aria-pressed="true">Take job</a>
               </div>
             </div>
           </div>
@@ -536,7 +538,7 @@
               <div class="card-header">
                 <h4 href="#" class="">Other</h4>
               </div>
-              <div class="card-body">
+              <div class="card-body pb-sm-1">
                 <p class="">08/09/2018<span class="pl-4">07:05</span></p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-white" data-toggle="modal" data-target="#exampleModalCenter7">
@@ -601,7 +603,7 @@
                 <hr class="mt-1">
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter8">
+                <button type="button" class="btn btn-secondary mt-sm-1" data-toggle="modal" data-target="#exampleModalCenter8">
                   <spam class="">Other Info</spam>
                 </button>
 
@@ -628,7 +630,7 @@
                   </div>
                 </div>
 
-                <a href="#" class="btn btn-dark" role="button" aria-pressed="true">Take job</a>
+                <a href="#" class="btn btn-dark mt-sm-1" role="button" aria-pressed="true">Take job</a>
               </div>
             </div>
           </div>
@@ -640,7 +642,7 @@
               <div class="card-header">
                 <h4 href="#" class="">Bench</h4>
               </div>
-              <div class="card-body">
+              <div class="card-body pb-sm-1">
                 <p class="">11/09/2018<span class="pl-4">11:05</span></p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-white" data-toggle="modal" data-target="#exampleModalCenter0">
@@ -705,7 +707,7 @@
                 <hr class="mt-1">
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter1">
+                <button type="button" class="btn btn-secondary mt-sm-1" data-toggle="modal" data-target="#exampleModalCenter1">
                   <spam class="">Other Info</spam>
                 </button>
 
@@ -732,7 +734,7 @@
                   </div>
                 </div>
 
-                <a href="#" class="btn btn-dark" role="button" aria-pressed="true">Take job</a>
+                <a href="#" class="btn btn-dark mt-sm-1" role="button" aria-pressed="true">Take job</a>
               </div>
             </div>
           </div>
@@ -744,7 +746,7 @@
               <div class="card-header">
                 <h4 href="#" class="">Squat</h4>
               </div>
-              <div class="card-body">
+              <div class="card-body pb-sm-1">
                 <p class="">10/09/2018<span class="pl-4">14:05</span></p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-white" data-toggle="modal" data-target="#exampleModalCenter3">
@@ -809,7 +811,7 @@
                 <hr class="mt-1">
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter4">
+                <button type="button" class="btn btn-secondary mt-sm-1" data-toggle="modal" data-target="#exampleModalCenter4">
                   <spam class="">Other Info</spam>
                 </button>
 
@@ -836,7 +838,7 @@
                   </div>
                 </div>
 
-                <a href="#" class="btn btn-dark" role="button" aria-pressed="true">Take job</a>
+                <a href="#" class="btn btn-dark mt-sm-1" role="button" aria-pressed="true">Take job</a>
               </div>
             </div>
           </div>
@@ -848,7 +850,7 @@
               <div class="card-header">
                 <h4 href="#" class="">Deadlift</h4>
               </div>
-              <div class="card-body">
+              <div class="card-body pb-sm-1">
                 <p class="">08/09/2018<span class="pl-4">09:05</span></p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-white" data-toggle="modal" data-target="#exampleModalCenter5">
@@ -913,7 +915,7 @@
                 <hr class="mt-1">
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter6">
+                <button type="button" class="btn btn-secondary mt-sm-1" data-toggle="modal" data-target="#exampleModalCenter6">
                   <spam class="">Other Info</spam>
                 </button>
 
@@ -940,7 +942,7 @@
                   </div>
                 </div>
 
-                <a href="#" class="btn btn-dark" role="button" aria-pressed="true">Take job</a>
+                <a href="#" class="btn btn-dark mt-sm-1" role="button" aria-pressed="true">Take job</a>
               </div>
             </div>
           </div>

@@ -1,6 +1,12 @@
 @extends('masterlayout')
 
 @section('section')
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb bg-white mb-0">
+      <li class="breadcrumb-item"><a href="/userindex">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Account settings</li>
+    </ol>
+  </nav>
   <div class="container mb-4">
     <div class="row mt-3">
       <div class="col-xs-12 col-sm-12 d-flex align-items-center">
@@ -13,157 +19,21 @@
       </div>
       <div class="col-12 shadow-sm pl-0 pr-0 bg-light mt-3">
         <p class="float-left pl-3 mt-2">Account: </p>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text pr-1" id="inputGroupFileAddon01">Account Balance: £</span>
-          </div>
-          <div class="input-group-append">
-            <span class="input-group-text bg-white">110.00</span>
-            <!-- Button trigger modal -->
-            <button class="btn btn-outline-secondary" type="button" data-toggle="modal" data-target="#exampleModal">Change</button>
-            <!-- Modal -->
-            <div class="modal fade bd-example-modla-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Change Account Balance: £110.00</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-6">
 
-                          <h4 class="d-flex justify-content-between align-items-center mb-3">
-                            <span class="text-muted">Packages</span>
-                          </h4>
-
-                          <ul class="list-group mb-3">
-                            <li class="list-group-item d-flex justify-content-between lh-condensed">
-                              <div>
-                                <h6 class="my-0">Starter Pack</h6>
-                                <small class="text-muted">Brief description</small>
-                              </div>
-                              <span class="text-muted">£12</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between lh-condensed">
-                              <div>
-                                <h6 class="my-0">Second product</h6>
-                                <small class="text-muted">Brief description</small>
-                              </div>
-                              <span class="text-muted">$8</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between lh-condensed">
-                              <div>
-                                <h6 class="my-0">Third item</h6>
-                                <small class="text-muted">Brief description</small>
-                              </div>
-                              <span class="text-muted">$5</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between bg-light">
-                              <div class="text-success">
-                                <h6 class="my-0">Promo code</h6>
-                                <small>EXAMPLECODE</small>
-                              </div>
-                              <span class="text-success">-$5</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between">
-                              <span>Total (USD)</span>
-                              <strong>$20</strong>
-                            </li>
-                          </ul>
-
-                        </div>
-                        <div class="col-6">
-
-          <h4 class="d-flex justify-content-between align-items-center mb-3">
-            <span class="text-muted">Your cart</span>
-            <span class="badge badge-secondary badge-pill">3</span>
-          </h4>
-          <ul class="list-group mb-3">
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
-              <div>
-                <h6 class="my-0">Product name</h6>
-                <small class="text-muted">Brief description</small>
-              </div>
-              <span class="text-muted">$12</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
-              <div>
-                <h6 class="my-0">Second product</h6>
-                <small class="text-muted">Brief description</small>
-              </div>
-              <span class="text-muted">$8</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
-              <div>
-                <h6 class="my-0">Third item</h6>
-                <small class="text-muted">Brief description</small>
-              </div>
-              <span class="text-muted">$5</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between bg-light">
-              <div class="text-success">
-                <h6 class="my-0">Promo code</h6>
-                <small>EXAMPLECODE</small>
-              </div>
-              <span class="text-success">-$5</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between">
-              <span>Total (USD)</span>
-              <strong>$20</strong>
-            </li>
-          </ul>
-
-          <form class="card p-2">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Promo code">
-              <div class="input-group-append">
-                <button type="submit" class="btn btn-secondary">Redeem</button>
-              </div>
-            </div>
-          </form>
-
-                        </div>
-                      </div>
-                    </div>
-
-                    </div>
-                    <div class="modal-footer">
-
-                      <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text pr-1" id="inputGroupFileAddon01">Withdraw: £</span>
-                        </div>
-                        <div class="input-group-append">
-                          <span class="input-group-text bg-white">110.00</span>
-                          <button type="button" class="btn btn-danger">Collect</button>
-                        </div>
-                      </div>
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div class="input-group mb-3">
           <div class="input-group-prepend">
-            <span class="input-group-text pr-1" id="inputGroupFileAddon01">Account Details:</span>
+            <span class="input-group-text pr-1" id="inputGroupFileAddon01">Card Details: </span>
           </div>
           <div class="input-group-append">
             <!-- Button trigger modal -->
-            <button class="btn btn-outline-secondary" type="button" data-toggle="modal" data-target="#exampleModal">Change</button>
+            <button class="btn btn-outline-secondary" type="button" data-toggle="modal" data-target="#Modal2">Change</button>
             <!-- Modal -->
-            <div class="modal fade bd-example-modla-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade bd-example-modla-lg" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="ModalLabel">Card Details: </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -190,20 +60,7 @@
                         </div>
 
                         <div class="mb-3">
-                          <label for="username">Username</label>
-                          <div class="input-group">
-                            <div class="input-group-prepend">
-                              <span class="input-group-text">@</span>
-                            </div>
-                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
-                            <div class="invalid-feedback" style="width: 100%;">
-                              Your username is required.
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="mb-3">
-                          <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                          <label for="email">Email </label>
                           <input type="email" class="form-control" id="email" placeholder="you@example.com">
                           <div class="invalid-feedback">
                             Please enter a valid email address for shipping updates.
@@ -252,18 +109,10 @@
                             </div>
                           </div>
                         </div>
-                        <hr class="mb-4">
-                        <div class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" id="same-address">
-                          <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
-                        </div>
-                        <div class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" id="save-info">
-                          <label class="custom-control-label" for="save-info">Save this information for next time</label>
-                        </div>
+
                         <hr class="mb-4">
 
-                        <h4 class="mb-3">Payment</h4>
+                        <h4 class="mb-3">Payment Details</h4>
 
                         <div class="d-block my-3">
                           <div class="custom-control custom-radio">
@@ -381,16 +230,19 @@
         </div>
 
       </div>
-      <div class="col-12 shadow-sm pl-0 pr-0 bg-light mt-3">
+
+      <div class="shadow-sm col-12 pl-0 pr-0 bg-light mt-3 pb-3 mb-2">
         <p class="float-left pl-3 pt-2">Change password:</p>
         <div class="input-group mb-3 mt-3">
           <div class="input-group-prepend">
             <span class="input-group-text">Password</span>
           </div>
           <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-
         </div>
+        <a href="/userindex" class="btn bg-secondary ml-2 text-white">Close</a>
+        <button type="button" class="btn btn-primary float-right mr-2">Save changes</button>
       </div>
+
     </div>
   </div>
 

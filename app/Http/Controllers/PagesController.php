@@ -19,6 +19,9 @@ class PagesController extends Controller
   public function usersettings()
   {return view('users/usersettings');}
 
+  public function messages()
+  {return view('/messages');}
+
 
   public function squat()
   {return view('users/squat/squat');}

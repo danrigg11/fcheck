@@ -35,5 +35,13 @@
   text-decoration: underline;
 }
 .tclink{
-  
+
+}
+
+/* messenger height width */
+@media screen and (max-height: 570px) {
+.messengerhw{
+  height: 390px;
+  overflow: hidden;
+}
 }
