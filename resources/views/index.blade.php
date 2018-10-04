@@ -88,13 +88,27 @@
                         <input type="text" class="form-control mr-3 mt-1" placeholder="Last name" required>
                       </div>
                       <div class="">
-                        <input class="form-control mt-1" type="date" id="myDate" required>
+                        <input class="form-control mr-3 mt-1" type="date" id="myDate" required>
                       </div>
+                      <select class="custom-select mt-1" required>
+                        <option value="" selected>Sex...</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                      </select>
                     </div>
                     <div class="form-group">
                       <div class="input-group mb-2">
                         <div class="input-group-prepend">
                           <div class="input-group-text">@</div>
+                        </div>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                    </div>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                    <div class="form-group">
+                      <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">U</div>
                         </div>
                         <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username" required>
                       </div>
@@ -108,12 +122,17 @@
                       </div>
                     </div>
                     <hr>
-                    <div class="form-group">
-                      <select class="custom-select" required>
-                        <option value="" selected>Choose...</option>
-                        <option value="1">Male</option>
-                        <option value="2">Female</option>
-                      </select>
+                    <div class="col-xs-12 col-sm-6 pl-0">
+                      <label class="text-danger">Example:</label>
+                      <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text pl-1 pr-1 text-danger">Kg</div>
+                        </div>
+                        <label class="input-group-text bg-white text-danger">123</label>
+                        <div class="input-group-text pl-1 pr-1">.</div>
+                        <label class="input-group-text bg-white text-danger">75</label>
+                        <label class="text-danger pt-1"> = kilograms 123.75</label>
+                      </div>
                     </div>
 
                     <div class="form-group">
@@ -125,16 +144,9 @@
                             <div class="input-group-prepend">
                               <div class="input-group-text pl-1 pr-1">Kg</div>
                             </div>
-                            <input id="ticketNum" type="number" name="ticketNum" value="0">
-                          </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                          <label for="ticketNum">Number of Pounds:</label>
-                          <div class="input-group mb-2">
-                            <div class="input-group-prepend">
-                              <div class="input-group-text pl-1 pr-1">:</div>
-                            </div>
-                            <input id="ticketNum" type="number" name="ticketNum" value="0">
+                            <input id="ticketNum" type="number" name="ticketNum" value="000">
+                            <div class="input-group-text pl-1 pr-1">.</div>
+                            <input id="ticketNum" type="number" name="ticketNum" value="00">
                           </div>
                         </div>
                       </div>
@@ -150,21 +162,15 @@
                             <div class="input-group-prepend">
                               <div class="input-group-text pl-1 pr-1">Kg</div>
                             </div>
-                            <input id="ticketNum" type="number" name="ticketNum" value="0">
-                          </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                          <label for="ticketNum">Number of Pounds:</label>
-                          <div class="input-group mb-2">
-                            <div class="input-group-prepend">
-                              <div class="input-group-text pl-1 pr-1">:</div>
-                            </div>
-                            <input id="ticketNum" type="number" name="ticketNum" value="0">
+                            <input id="ticketNum" type="number" name="ticketNum" value="000">
+                            <div class="input-group-text pl-1 pr-1">.</div>
+                            <input id="ticketNum" type="number" name="ticketNum" value="00">
                           </div>
                         </div>
                       </div>
                       <hr class="mt-0">
                     </div>
+
 
                     <div class="form-group">
                       <h4>Deadlift</h4>
@@ -175,21 +181,15 @@
                             <div class="input-group-prepend">
                               <div class="input-group-text pl-1 pr-1">Kg</div>
                             </div>
-                            <input id="ticketNum" type="number" name="ticketNum" value="0">
-                          </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                          <label for="ticketNum">Number of Pounds:</label>
-                          <div class="input-group mb-2">
-                            <div class="input-group-prepend">
-                              <div class="input-group-text pl-1 pr-1">:</div>
-                            </div>
-                            <input id="ticketNum" type="number" name="ticketNum" value="0">
+                            <input id="ticketNum" type="number" name="ticketNum" value="000">
+                            <div class="input-group-text pl-1 pr-1">.</div>
+                            <input id="ticketNum" type="number" name="ticketNum" value="00">
                           </div>
                         </div>
                       </div>
                       <hr class="mt-0">
                     </div>
+
 
                     <div class="form-group">
                       <label for="inputAddress">Address</label>
@@ -319,15 +319,30 @@
 
 
 </body>
-<footer class="pb-0 mb-0">
-  <div class="mt-0 mb-0 bg-success">
-    <ul>
-      <li><a class="text-dark" href="#">Contact</a></li>
-      <li><a class="text-dark" href="#">Help</a></li>
-      <li><a class="text-dark" href="#">T&Q</a></li>
-      <p>@Fcheck 2018</p>
-    </ul>
-
+<footer class="bg-light">
+<div class="jumbotron jumbotron-fluid mb-0 bg-success">
+  <div class="container">
+    <h1 class="display-4 text-center text-white">Advert Space</h1>
   </div>
+</div>
+<div class="container">
+  <div class="row mt-3 mb-2">
+    <div class="col-12">
+      <ul>
+        <p>Helpful links</p>
+        <li><a href="https://www.powerlifting-ipf.com/anti-doping/rules-documents.html">IPF rulebook</a></li>
+        <li><a href="https://www.sbdapparel.com/">SBD apparel</a></li>
+      </ul>
+      <hr>
+    </div>
+    <div class="col">
+      <a class="text-dark" href="https://icons8.com/">icons8 link</a>
+    </div>
+    <div class="col">
+      <p>@Fcheck 2018</p>
+    </div>
+  </div>
+</div>
+
 </footer>
 </html>
